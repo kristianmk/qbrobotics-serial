@@ -20,7 +20,7 @@
 #
 
 cmake_minimum_required(VERSION 3.5.1 FATAL_ERROR)
-project(Serial VERSION 2.0.2 LANGUAGES CXX)
+project(Serial VERSION 2.0.3 LANGUAGES CXX)
 message("-- [ ${PROJECT_NAME}] start compiling")
 if(APPLE)
   find_library(COREFOUNDATION_LIBRARY CoreFoundation)
@@ -32,7 +32,7 @@ if(APPLE)
     message(FATAL_ERROR "IOKit framework not found.")
   endif()
 elseif(UNIX)
-  # noting to fetch
+  include(GNUInstallDirs)
 elseif(WIN32)
   if (MSVC_VERSION GREATER_EQUAL "1900")
     include(CheckCXXCompilerFlag)
