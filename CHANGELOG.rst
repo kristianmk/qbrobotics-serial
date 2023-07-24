@@ -2,6 +2,10 @@
 Changelog for package serial
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.5 (2023-07-24)
+------------------
+* FIX: typos removed from README.md file
+
 2.0.4 (2023-07-24)
 ------------------
 * MINOR FIX: updated licenses

@@ -26,7 +26,7 @@ This project requires:
 - cmake tools 
 - Developer Command Prompt fo VS 2019
 
-Open the **Developer Command Prompt fo VS 2019** and navigate to the folder containing this README file, then executes the following commands:
+Open the **Developer Command Prompt for VS 2019** and navigate to the folder containing this README file, then executes the following commands:
 
 ```
 mkdir build
