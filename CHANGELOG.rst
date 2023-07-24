@@ -2,6 +2,24 @@
 Changelog for package serial
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.4 (2023-07-24)
+------------------
+* MINOR FIX: updated licenses
+
+2.0.3 (2023-07-24)
+------------------
+* FIX: updated changelog file.
+* FIX: cstring included (compiling error in newest linux distro)
+* Updated pkg version
+* Updated pkg version
+* GNUInstallDirs icluded as installation paths were not found in some tests.
+* Modified SerialConfig.cmake file in order to have relative paths
+* modified SerialConfig.cmake file
+* Implemented some port setting on Unix implementation
+* Modified cmakelists.txt file
+* changed SerialConfig.cmake file.
+* Modified README.md file
+
 1.2.1 (2015-04-21)
 ------------------
 * Removed the use of a C++11 feature for compatibility with older browsers.
